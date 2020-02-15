@@ -1,0 +1,931 @@
+{
+  "Version": 76,
+  "Individuals": [
+    {
+      "Name": "Adult",
+      "Seed": 102292859,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 30.0,
+          "Unit": "year(s)"
+        }
+      },
+      "Molecules": [
+        {
+          "Name": "CYP2B6",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.0021211129296
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.0063502454992
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.1043535188
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.5970540098
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0703109656
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0703109656
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0703109656
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0703109656
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0703109656
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0703109656
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A4",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.0041682898325
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.00078691079081
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0053603428126
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.00042695753798
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0727697702
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP3A4"
+          }
+        },
+        {
+          "Name": "CYP2D6",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.00768702814
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.768702814
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0208304736
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0223404255
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0909402883
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0909402883
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP2D6"
+          }
+        }
+      ]
+    }
+  ],
+  "Compounds": [
+    {
+      "Name": "Tramadol",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 1.9,
+              "Unit": "Log Units"
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.8
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 0.75,
+              "Unit": "mg/ml"
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 9.41,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "MetabolizationIntrinsic_FirstOrder",
+          "DataSource": "CYP2B6",
+          "Species": "Human",
+          "Molecule": "CYP2B6",
+          "Parameters": [
+            {
+              "Name": "Intrinsic clearance",
+              "Value": 0.0,
+              "Unit": "l/min"
+            },
+            {
+              "Name": "Specific clearance",
+              "Value": 0.021,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationIntrinsic_FirstOrder",
+          "DataSource": "CYP2D6",
+          "Species": "Human",
+          "Molecule": "CYP2D6",
+          "Parameters": [
+            {
+              "Name": "Intrinsic clearance",
+              "Value": 0.0,
+              "Unit": "l/min"
+            },
+            {
+              "Name": "Specific clearance",
+              "Value": 0.3096,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationIntrinsic_FirstOrder",
+          "DataSource": "CYP3A4",
+          "Species": "Human",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "Intrinsic clearance",
+              "Value": 0.0,
+              "Unit": "l/min"
+            },
+            {
+              "Name": "Specific clearance",
+              "Value": 0.0301,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "GFR",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - PK-Sim Standard",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 263.38,
+          "Unit": "g/mol"
+        }
+      ]
+    }
+  ],
+  "Protocols": [
+    {
+      "Name": "IV-infusion-30min",
+      "ApplicationType": "Intravenous",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 44.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Infusion time",
+          "Value": 30.0,
+          "Unit": "min"
+        }
+      ]
+    }
+  ],
+  "Simulations": [
+    {
+      "Name": "IVsim-Adult-Lintz-1999",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Tramadol-Obs-IV-Adults-Lintz-1999"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 30.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|IV-infusion-30min|Application_1|ProtocolSchemaItem|Infusion time",
+          "Value": 30.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Tramadol|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Adult",
+      "Compounds": [
+        {
+          "Name": "Tramadol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2B6-CYP2B6",
+              "MoleculeName": "CYP2B6"
+            },
+            {
+              "Name": "CYP3A4-CYP3A4",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP2D6-CYP2D6",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "IV-infusion-30min"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "IVsim-Adult-Lintz-1999-Tramadol-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "IVsim-Adult-Lintz-1999|Organism|PeripheralVenousBlood|Tramadol|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Tramadol-Obs-IV-Adults-Lintz-1999-Tramadol-Peripheral Venous Blood-Plasma-Conc ",
+              "X": "Tramadol-Obs-IV-Adults-Lintz-1999|Time ",
+              "Y": "Tramadol-Obs-IV-Adults-Lintz-1999|ObservedData|Peripheral Venous Blood|Plasma|Tramadol|Conc ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Tramadol\nIVsim-Adult-Lintz-1999\n2020-02-15 17:17"
+        }
+      ]
+    },
+    {
+      "Name": "IVsim-Adult-Lintz-2000",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Tramadol-Obs-IV-Adults-Lintz-2000"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 30.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|IV-infusion-30min|Application_1|ProtocolSchemaItem|Infusion time",
+          "Value": 30.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Tramadol|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Adult",
+      "Compounds": [
+        {
+          "Name": "Tramadol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2B6-CYP2B6",
+              "MoleculeName": "CYP2B6"
+            },
+            {
+              "Name": "CYP3A4-CYP3A4",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP2D6-CYP2D6",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "IV-infusion-30min"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "IVsim-Adult-Lintz-2000-Tramadol-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "IVsim-Adult-Lintz-2000|Organism|PeripheralVenousBlood|Tramadol|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Tramadol-Obs-IV-Adults-Lintz-2000-Tramadol-Peripheral Venous Blood-Plasma-Conc ",
+              "X": "Tramadol-Obs-IV-Adults-Lintz-2000|Time ",
+              "Y": "Tramadol-Obs-IV-Adults-Lintz-2000|ObservedData|Peripheral Venous Blood|Plasma|Tramadol|Conc ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Tramadol\nIVsim-Adult-Lintz-2000\n2020-02-15 17:17"
+        }
+      ]
+    }
+  ],
+  "ObservedData": [
+    {
+      "Name": "Tramadol-Obs-IV-Adults-Lintz-1999",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Egnyte\\Private\\esther.yun\\Tramadol\\ObservedData\\Tramadol-Obs-IV-adults-Lintz-1999.xlsx.IV-inf-50mg"
+        },
+        {
+          "Name": "File",
+          "Value": "Tramadol-Obs-IV-adults-Lintz-1999"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "IV-inf-50mg"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Tramadol"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Conc ",
+          "QuantityInfo": {
+            "Name": "Conc ",
+            "Path": "Tramadol-Obs-IV-Adults-Lintz-1999|ObservedData|Peripheral Venous Blood|Plasma|Tramadol|Conc "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2018-08-02T15:34:45.4387153-04:00",
+            "Source": "Tramadol-Obs-IV-adults-Lintz-1999.IV-inf-50mg.Conc [ng/ml]",
+            "MolWeight": 263.3752
+          },
+          "Values": [
+            0.1209,
+            0.1209,
+            0.23120001,
+            0.284,
+            0.2188,
+            0.205800012,
+            0.1888,
+            0.1648,
+            0.146,
+            0.132,
+            0.1128,
+            0.0999,
+            0.0721,
+            0.0538,
+            0.0392,
+            0.0278000012,
+            0.0062,
+            0.0042,
+            0.0028
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Tramadol-Obs-IV-Adults-Lintz-1999|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2018-08-02T15:34:45.4387153-04:00",
+          "Source": "Tramadol-Obs-IV-adults-Lintz-1999.IV-inf-50mg.Time [h]"
+        },
+        "Values": [
+          0.0800000057,
+          0.17,
+          0.329999983,
+          0.5,
+          0.58,
+          0.67,
+          0.75,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          10.0,
+          12.0,
+          24.0,
+          27.0,
+          30.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Tramadol-Obs-IV-Adults-Lintz-2000",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Egnyte\\Private\\esther.yun\\Tramadol\\ObservedData\\Tramadol-Obs-IV-Adults-Lintz-2000.xlsx.Sheet1"
+        },
+        {
+          "Name": "File",
+          "Value": "Tramadol-Obs-IV-Adults-Lintz-2000"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet1"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Tramadol"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Conc ",
+          "RelatedColumns": [
+            {
+              "Name": "SD",
+              "QuantityInfo": {
+                "Name": "SD",
+                "Path": "Tramadol-Obs-IV-Adults-Lintz-2000|ObservedData|Peripheral Venous Blood|Plasma|Tramadol|SD"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "GeometricStdDev",
+                "Date": "2018-09-26T13:53:24.6017216-04:00",
+                "Source": "Tramadol-Obs-IV-Adults-Lintz-2000.Sheet1.SD",
+                "MolWeight": 263.3752
+              },
+              "Values": [
+                40.2,
+                45.9,
+                61.0,
+                65.5,
+                64.0,
+                47.8,
+                52.8,
+                41.4,
+                39.7,
+                45.3,
+                37.9,
+                34.6,
+                35.2,
+                28.1,
+                23.3,
+                20.3,
+                17.6,
+                16.5,
+                15.0,
+                12.4,
+                10.8,
+                9.5,
+                3.9,
+                3.5
+              ],
+              "Dimension": "Dimensionless"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Conc ",
+            "Path": "Tramadol-Obs-IV-Adults-Lintz-2000|ObservedData|Peripheral Venous Blood|Plasma|Tramadol|Conc "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2018-09-26T13:53:24.6017216-04:00",
+            "Source": "Tramadol-Obs-IV-Adults-Lintz-2000.Sheet1.Conc [ng/ml]",
+            "MolWeight": 263.3752
+          },
+          "Values": [
+            0.1203,
+            0.1766,
+            0.2374,
+            0.2665,
+            0.271599978,
+            0.2647,
+            0.2386,
+            0.2236,
+            0.2088,
+            0.1987,
+            0.1821,
+            0.1626,
+            0.1566,
+            0.1429,
+            0.1306,
+            0.113299996,
+            0.098,
+            0.0668,
+            0.0503,
+            0.0368,
+            0.0263,
+            0.02,
+            0.0055,
+            0.00379999983
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Tramadol-Obs-IV-Adults-Lintz-2000|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2018-09-26T13:53:24.6017216-04:00",
+          "Source": "Tramadol-Obs-IV-Adults-Lintz-2000.Sheet1.Time [h]"
+        },
+        "Values": [
+          0.160000011,
+          0.25,
+          0.329999983,
+          0.41,
+          0.5,
+          0.53,
+          0.6,
+          0.659999967,
+          0.75,
+          0.83,
+          1.0,
+          1.25,
+          1.5,
+          2.0,
+          2.5,
+          3.5,
+          4.5,
+          6.5,
+          8.5,
+          10.5,
+          12.5,
+          14.5,
+          24.5,
+          27.5
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    }
+  ]
+}
